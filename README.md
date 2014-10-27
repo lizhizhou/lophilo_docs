@@ -1,4 +1,4 @@
-lophilo_docs
-============
+# The lophilo User Manual
 
-The document of lophilo broad
+Lophilo is a open source hardware porject.
+
