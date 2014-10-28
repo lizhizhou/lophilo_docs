@@ -11,6 +11,7 @@
 * [The software](the_software/README.md)
    * [bootload](the_software/bootload.md)
    * [linux](the_software/linux.md)
+   * [grid](the_software/grid.md)
    * [driver](the_software/driver.md)
    * [meterioshell](the_software/meterioshell.md)
    * [IDE](the_software/ide.md)
