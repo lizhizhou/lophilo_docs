@@ -1,1 +1,4 @@
 # license
+GPL
+LGPL
+OSHWA
