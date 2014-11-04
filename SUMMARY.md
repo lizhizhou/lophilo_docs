@@ -15,7 +15,7 @@
        * [build](the_software/build.md)
        * [install](the_software/install.md)
    * [linux](the_software/linux.md)
-       * [build](the_software/build)
+       * [build](file_name_should_be_unique.md)
        * [install](the_software/install)
    * [grid](the_software/grid.md)
    * [driver](the_software/driver.md)
