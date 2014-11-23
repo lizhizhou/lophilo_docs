@@ -1,12 +1,19 @@
 # Start up step by step
-1 Plug in the power cable, usb and net cable
+## 1 Plug in the power cable, usb and net cable
+![](power_plug.fw.png)
 
-2 Press the power button.
+## 2 Press the power button.
+![](power_on.fw.png)
 
-3 login the console
+Press the gray button to power on. Pink one is the reset button. After power on the usb device of the broad will be recognize as a serical port.
 
-4 get the ip address from console
+## 3 login the console
+Download a putty software and connect the serial port.
+ [www.putty.org](www.putty.org)
+
+## 4 get the ip address from console
  Run ifconfig in shell console
+
   ```
 root@hostname:~$ ifconfig
 eth0     Link encap:Ethernet  HWaddr 48:02:2a:b6:0c:0a
@@ -27,7 +34,8 @@ miniand@miniand:~$
 ```
 The ip address of the broad is 192.168.2.109
 
-5 get the ip address from router
+## 5 get the ip address from router
+
   You can also get the ip address of the broad from you router in the DHCP servier-> client list
  ```
 ID	客户端名	MAC 地址	IP 地址	有效时间
@@ -40,14 +48,28 @@ ID	客户端名	MAC 地址	IP 地址	有效时间
 ```
 The ip address of the broad is 192.168.2.109
 
-6 load the Arduino IDE from the browser
+## 6 load the Arduino IDE from the browser
+Open a brower and type the address:
+http://(ip_addres_of_the_broad):8888
+![](ide.fw.png)
+## 7 Load a configuration
+Select the drop-down list, you can choose the configuration of the broad. The broad will program the fgpa program based on your choice.
 
-7 Load a example
+## 8 Load a example
+Pree the blue butten under the program editor. You can load a program which is saved previously.
+The Ex1 example includes a RGB LED example.
 
-8 Edit the code
+## 9 Edit the code
+Edit the code in the editor.
 
-9 Check the api doc
+## 10 Check the api doc
+Press the API button, you will see the API you can use in the program.
 
-10 run the code
+## 11 run the code
+Press the run button, the program you write will download to the braod, compile and run in the broad.
 
-11
+## 12 check the output and error message
+The compile error will display in the error label and you can currect it. The output of the program will display in the log label
+
+## 13 Save the code
+Press the save button and input the file name. The program you wirte will save in the broad. And the code can be load by using load example stage.
