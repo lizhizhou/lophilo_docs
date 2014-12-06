@@ -81,6 +81,8 @@ Press the API button, you will see the API you can use in the program.
 Press the run button, the program you write will download to the braod, compile and run in the broad.
 See the RGB led change its color by your control.
 
+![](led.jpg)
+
 ## 12 check the output and error message
 The compile error will display in the error label and you can currect it. The output of the program will display in the log label
 
