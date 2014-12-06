@@ -58,6 +58,18 @@ Select the drop-down list, you can choose the configuration of the broad. The br
 ## 8 Load a example
 Pree the blue butten under the program editor. You can load a program which is saved previously.
 The Ex1 example includes a RGB LED example.
+```
+int main(int argn, char* argv[])
+{
+    init();
+    led(0, 255,0,0);
+    led(1, 255,0 ,255);
+    led(2, 0 ,255,255);
+    led(3, 255,255,0);
+    return 0;
+}
+```
+
 
 ## 9 Edit the code
 Edit the code in the editor.
@@ -67,9 +79,13 @@ Press the API button, you will see the API you can use in the program.
 
 ## 11 run the code
 Press the run button, the program you write will download to the braod, compile and run in the broad.
+See the RGB led change its color by your control.
 
 ## 12 check the output and error message
 The compile error will display in the error label and you can currect it. The output of the program will display in the log label
 
 ## 13 Save the code
 Press the save button and input the file name. The program you wirte will save in the broad. And the code can be load by using load example stage.
+
+## 14 Extend the broad.
+Comming soon
