@@ -52,9 +52,13 @@ Open a brower and type the address:
 http://(ip_addres_of_the_broad):8888
 ![](ide.fw.png)
 ## 7 Load a configuration
+![](button.jpg)
+
 Select the drop-down list, you can choose the configuration of the broad. The broad will program the fgpa program based on your choice.
 
 ## 8 Load a example
+![](ex.jpg)
+
 Pree the blue butten under the program editor. You can load a program which is saved previously.
 The Ex1 example includes a RGB LED example.
 ```
@@ -84,6 +88,8 @@ See the RGB led change its color by your control.
 
 ## 12 check the output and error message
 The compile error will display in the error label and you can currect it. The output of the program will display in the log label
+
+![](console.jpg)
 
 ## 13 Save the code
 Press the save button and input the file name. The program you wirte will save in the broad. And the code can be load by using load example stage.
